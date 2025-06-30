@@ -1,0 +1,117 @@
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+  background-color: #f4f4f8; 
+  margin: 0; 
+  padding: 0; 
+  color: #333; 
+}
+header {
+  position: relative;
+  background-color: #1e3a8a; 
+  color: white; 
+  padding: 30px;
+  text-align: center; 
+}
+
+header h1 {
+  margin: 0;
+  font-size: 40px; 
+  letter-spacing: 1px;
+}
+
+header a {
+  text-decoration: none; 
+  color: white;
+}
+.escudo-brasil {
+  position: absolute;
+  top: -15px;
+  left: 40px;
+  width: 130px; 
+  height: auto;
+}
+
+ .anuncio-starlink {
+  position: absolute;
+  margin-top: 10%;
+  width: auto;
+  height: auto;
+  left: 40px;;
+  border-collapse: collapse;
+ }
+
+ .puma-logo {
+  position: absolute;
+  top: 0px;
+  right: 20px;
+  width: 150px; 
+  height: auto;
+
+}
+
+
+ .logo-casa{
+position: absolute;
+top: 0px;
+left: 15px;
+width: 30px;
+height: auto;
+}
+
+
+table {
+  width: 60%;
+  border-collapse: collapse;
+  margin: 40px auto;
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+
+thead th {
+  background-color: #dc2626;
+  color: white;
+  font-weight: 600;
+  text-align: center;
+  padding: 12px 10px;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+img {
+  width: 150px; 
+  border-radius: 10px; 
+  margin: 10px; 
+  transition: transform 0.3s; 
+}
+
+img:hover {
+  transform: scale(1.05); 
+}
+
+
+tbody td {
+  padding: 12px 10px;
+  text-align: center;
+  font-size: 14px;
+  border-bottom: 1px solid #ddd;
+  color: #333;
+}
+
+
+tbody tr:nth-child(even) {
+  background-color: #f4f7f9;
+}
+
+
+tbody tr:hover {
+  background-color: #e6f0ff;
+}
+footer {
+  background-color: white; 
+  text-align: center; 
+  padding: 15px; 
+  margin-top: 40px; 
+  font-size: 0.9rem;
+}

@@ -1,0 +1,176 @@
+
+/* Body con tipografía legible y fondo suave */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  padding: 0px;
+  margin: 0px;
+}
+header {
+  position: relative;
+  background-color: #1e3a8a; /* Azul fuerte como color de fondo */
+  color: white; /* Texto blanco */
+  padding: 30px; /* Espaciado interno */
+  text-align:center; /* Centra el texto */
+}
+
+/* Encabezado principal */
+header h1 {
+  text-align: center;
+  font-size: 40px; /* Tamaño grande */
+  color: white; 
+  margin: 0px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+/* Imagen del escudo centrada */
+ img {
+  display: block;
+  margin: 0 auto 30px auto;
+  max-width: 150px;
+  transition: transform 0.3s ease;
+}
+
+/* Efecto hover en la imagen */
+a > img:hover {
+  transform: scale(1.1);
+}
+
+/* Títulos secundarios */
+h2 {
+  color: #004080;
+  font-size: 29px;
+  margin: 30px 0 15px 0;
+  border-bottom: 3px solid #ff6600; /* Línea naranja debajo */
+  padding-bottom: 5px;
+  text-transform: uppercase;
+}
+
+.logo-casa{
+position: absolute;
+top: 10px;
+left: 20px;
+width: 30px;
+height: auto;
+}
+.puma-logo {
+  position: absolute;
+  top: 0px;
+  right: 20px;
+  width: 150px; /* Podés ajustar el tamaño */
+  height: auto;
+
+}
+ .logo-argentina{
+  position: absolute;
+  top: -10px;
+  left: 50px;
+  width: 130px; /* Podés ajustar el tamaño */
+  height: auto;
+}
+
+/* Tablas con estilo moderno */
+table {
+  width: 50%;
+  border-collapse: collapse; /* Para que no haya doble borde */
+  margin: 40px auto; /* Espacio arriba y centrado horizontalmente */
+  margin-bottom: 40px;
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden; /* Para que el border-radius funcione */
+}
+
+/* Cabecera de tabla */
+thead th, table th {
+  background-color: #004080;
+  color: white;
+  font-weight: 600;
+  text-align: center;
+  padding: 12px 10px;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+/* Celdas del cuerpo */
+tbody td, table td {
+  padding: 12px 10px;
+  text-align: center;
+  font-size: 14px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Enlaces dentro de las tablas */
+tbody td a {
+  color: #ff6600;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+tbody td a:hover {
+  color: #cc5200;
+  text-decoration: underline;
+}
+
+/* Filas alternadas para mejor lectura */
+tbody tr:nth-child(even) {
+  background-color: #f4f7f9;
+}
+
+/* Párrafos destacados */
+p strong, p b {
+  color: #004080;
+  font-weight: 700;
+  font-size: 1.1rem;
+  margin-top: 10px;
+  display: block;
+}
+
+/* Ajuste para que tablas no se vean apretadas en móvil */
+@media (max-width: 768px) {
+  body {
+    padding: 10px;
+  }
+  
+  table, thead, tbody, th, td, tr {
+    display: block;
+  }
+  
+  thead tr {
+    display: none; /* Ocultar encabezados */
+  }
+  
+  tbody tr {
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+  }
+  
+  tbody td {
+    text-align: right;
+    padding-left: 50%;
+    position: relative;
+  }
+  
+  tbody td::before {
+    content: attr(data-label); /* Muestra el nombre de la columna antes del dato */
+    position: absolute;
+    left: 15px;
+    width: 45%;
+    padding-left: 10px;
+    font-weight: 700;
+    text-align: left;
+    color: #004080;
+  }
+}
+
+footer {
+  color: black;
+    text-align: center; /* Centra el texto */
+  padding: 15px; /* Espaciado interno */
+  margin-top: 40px; /* Espacio arriba */
+  font-size: 15px; /* Texto un poco más chico */
+}
