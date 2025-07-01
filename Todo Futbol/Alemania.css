@@ -1,27 +1,27 @@
-/* Tablas con estilo moderno */
+
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Fuente moderna y legible */
-  background-color: #f4f4f8; /* Color de fondo suave (gris claro) */
-  margin: 0; /* Elimina márgenes por defecto del navegador */
-  padding: 0; /* Elimina relleno por defecto */
-  color: #333; /* Color del texto principal (gris oscuro) */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+  background-color: #f4f4f8;
+  margin: 0; 
+  padding: 0; 
+  color: #333;
 }
 header {
-  background-color: #1e3a8a; /* Azul fuerte como color de fondo */
-  color: white; /* Texto blanco */
-  padding: 30px; /* Espaciado interno */
-  text-align: center; /* Centra el texto */
+  background-color: #1e3a8a; 
+  color: white; 
+  padding: 30px;
+  text-align: center;
 }
 
 header h1 {
   margin: 0;
-  font-size: 40px; /* Tamaño grande del título */
-  letter-spacing: 1px; /* Espaciado entre letras */
+  font-size: 40px; 
+  letter-spacing: 1px; 
 }
 
 header a {
-  text-decoration: none; /* Quita el subrayado del enlace */
-  color: white; /* Asegura que el enlace también sea blanco */
+  text-decoration: none; 
+  color: white; 
 }
 .logo-casa{
 position: absolute;
@@ -34,14 +34,14 @@ height: auto;
   position: absolute;
   top: 0px;
   right: 20px;
-  width: 150px; /* Podés ajustar el tamaño */
+  width: 150px;
   height: auto;
 }
 .escudo-alemania{
   position: absolute;
   top: -10px;
   left: 50px;
-  width: 130px; /* Podés ajustar el tamaño */
+  width: 130px;
   height: auto;
 }
 img {
@@ -51,10 +51,10 @@ img {
   transition: transform 0.3s ease;
 }
 
-/* Efecto hover en la imagen */
+
 a > img:hover {
   transform: scale(1.1);}
-/* Tabla con estilo moderno */
+
 table {
   width: 50%;
   border-collapse: collapse;
@@ -64,7 +64,7 @@ table {
   overflow: hidden;
 }
 
-/* Cabecera */
+
 thead th {
   background-color: #dc2626;
   color: white;
@@ -75,7 +75,7 @@ thead th {
   font-size: 14px;
 }
 
-/* Celdas */
+
 tbody td {
   padding: 12px 10px;
   text-align: center;
@@ -84,23 +84,23 @@ tbody td {
   color: #333;
 }
 
-/* Filas alternadas */
+
 tbody tr:nth-child(even) {
   background-color: #f4f7f9;
 }
 
-/* Hover fila */
+
 tbody tr:hover {
   background-color: #e6f0ff;
 }
  
 
 footer {
-  background-color: white; /* Azul fuerte */
-  text-align: center; /* Centra el texto */
-  padding: 15px; /* Espaciado interno */
-  margin-top: 40px; /* Espacio arriba */
-  font-size: 0.9rem; /* Texto un poco más chico */
+  background-color: white; 
+  text-align: center; 
+  padding: 15px;
+  margin-top: 40px; 
+  font-size: 0.9rem; 
 }
 .anuncio{
   margin: 0 auto;
