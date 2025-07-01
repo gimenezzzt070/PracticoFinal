@@ -1,5 +1,5 @@
 
-/* Body con tipografía legible y fondo suave */
+
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: #f9f9f9;
@@ -9,23 +9,23 @@ body {
 }
 header {
   position: relative;
-  background-color: #1e3a8a; /* Azul fuerte como color de fondo */
-  color: white; /* Texto blanco */
-  padding: 30px; /* Espaciado interno */
-  text-align:center; /* Centra el texto */
+  background-color: #1e3a8a; 
+  color: white; 
+  padding: 30px;
+  text-align:center; 
 }
 
-/* Encabezado principal */
+
 header h1 {
   text-align: center;
-  font-size: 40px; /* Tamaño grande */
+  font-size: 40px; 
   color: white; 
   margin: 0px;
   font-weight: 700;
   letter-spacing: 1px;
 }
 
-/* Imagen del escudo centrada */
+
  img {
   display: block;
   margin: 0 auto 30px auto;
@@ -33,17 +33,17 @@ header h1 {
   transition: transform 0.3s ease;
 }
 
-/* Efecto hover en la imagen */
+
 a > img:hover {
   transform: scale(1.1);
 }
 
-/* Títulos secundarios */
+
 h2 {
   color: #004080;
   font-size: 29px;
   margin: 30px 0 15px 0;
-  border-bottom: 3px solid #ff6600; /* Línea naranja debajo */
+  border-bottom: 3px solid #ff6600;
   padding-bottom: 5px;
   text-transform: uppercase;
 }
@@ -59,7 +59,7 @@ height: auto;
   position: absolute;
   top: 0px;
   right: 20px;
-  width: 150px; /* Podés ajustar el tamaño */
+  width: 150px; 
   height: auto;
 
 }
@@ -67,22 +67,21 @@ height: auto;
   position: absolute;
   top: -10px;
   left: 50px;
-  width: 130px; /* Podés ajustar el tamaño */
+  width: 130px;
   height: auto;
 }
 
-/* Tablas con estilo moderno */
+
 table {
   width: 50%;
-  border-collapse: collapse; /* Para que no haya doble borde */
-  margin: 40px auto; /* Espacio arriba y centrado horizontalmente */
+  border-collapse: collapse; 
+  margin: 40px auto;
   margin-bottom: 40px;
   background-color: white;
   border-radius: 8px;
-  overflow: hidden; /* Para que el border-radius funcione */
+  overflow: hidden; 
 }
 
-/* Cabecera de tabla */
 thead th, table th {
   background-color: #004080;
   color: white;
@@ -93,7 +92,7 @@ thead th, table th {
   font-size: 14px;
 }
 
-/* Celdas del cuerpo */
+
 tbody td, table td {
   padding: 12px 10px;
   text-align: center;
@@ -101,7 +100,7 @@ tbody td, table td {
   border-bottom: 1px solid #ddd;
 }
 
-/* Enlaces dentro de las tablas */
+
 tbody td a {
   color: #ff6600;
   text-decoration: none;
@@ -114,12 +113,12 @@ tbody td a:hover {
   text-decoration: underline;
 }
 
-/* Filas alternadas para mejor lectura */
+
 tbody tr:nth-child(even) {
   background-color: #f4f7f9;
 }
 
-/* Párrafos destacados */
+
 p strong, p b {
   color: #004080;
   font-weight: 700;
@@ -128,18 +127,13 @@ p strong, p b {
   display: block;
 }
 
-/* Ajuste para que tablas no se vean apretadas en móvil */
-@media (max-width: 768px) {
-  body {
-    padding: 10px;
-  }
-  
+
   table, thead, tbody, th, td, tr {
     display: block;
   }
   
   thead tr {
-    display: none; /* Ocultar encabezados */
+    display: none; 
   }
   
   tbody tr {
@@ -156,7 +150,7 @@ p strong, p b {
   }
   
   tbody td::before {
-    content: attr(data-label); /* Muestra el nombre de la columna antes del dato */
+    content: attr(data-label);
     position: absolute;
     left: 15px;
     width: 45%;
@@ -169,8 +163,8 @@ p strong, p b {
 
 footer {
   color: black;
-    text-align: center; /* Centra el texto */
-  padding: 15px; /* Espaciado interno */
-  margin-top: 40px; /* Espacio arriba */
-  font-size: 15px; /* Texto un poco más chico */
+    text-align: center; 
+  padding: 15px; 
+  margin-top: 40px;
+  font-size: 15px; 
 }
